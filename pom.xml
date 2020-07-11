@@ -109,6 +109,22 @@
       <optional>true</optional>
     </dependency>
   </dependencies>
+    
+    <distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Bharath Nexus Repository</name>
+	      <url>http://18.191.233.208:8081/repository/samplewebapplication/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Bharath Snapshot Nexus Repository </name>
+	      <url>http://18.191.233.208:8081/repository/samplesnapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 
   <build>
     <plugins>
